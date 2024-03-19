@@ -1,6 +1,13 @@
 
 
-
+p{
+  cursor: pointer;
+  color: #fff;
+  
+}
+p:hover{
+  color: rgb(23, 147, 188);
+}
 
 .topnav {
     overflow: hidden;
@@ -81,7 +88,7 @@
 	left: 0;
 	right: 0;
 	width: 500px;
-	height: 430px;
+	height: 450px;
 }
 
 .form-box .header-text {
@@ -145,34 +152,16 @@
      
 }
 
-footer {
-    background-color: #001A22;
-    color: #fff;
-    padding: 20px;
-    text-align: center;
-}
-.contact-info {
-    display: flex;
-    justify-content: center;
-    margin-top: 20px;
-}
-.contact-info a {
-    color: #fff;
-    margin: 0 10px;
-    text-decoration: none;
-}
-.contact-info a:hover {
-    text-decoration: underline;
-}
+
 
 /* Make image responsive */
-img {
+/* img {
     width: 100%;
     height: auto;
     display: block;
     margin: 0 auto;
     max-width: 100%;
-}
+} */
 
 
 /* Make footer responsive */
